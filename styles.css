@@ -11,7 +11,10 @@ header {
     margin: 20px 50px;
     background: white;
     display: flex;
-    gap: 25%;
+    gap: 20%;
+    justify-content: center;
+    font-weight: 400;
+
 }
 
 header div h1 {
@@ -32,7 +35,7 @@ header div ul li {
 header div ul li:first-child {
     border: solid 1px gray;
     border-radius: 20px;
-    padding: 8px;
+    padding: 8px 20px;
 }
 
 header div ul li:not(:first-child) {
@@ -45,13 +48,16 @@ header div ul li:not(:first-child) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.home-title, .middle-bar {
+    width: 60%;
+}
 
 .home div h1 {
     color: white;
@@ -62,15 +68,17 @@ header div ul li:not(:first-child) {
     background: rgb(232, 226, 226);
     display: flex;
     padding: 15px;
-    border-radius: 20px;
-    width: 85%;
+    border-radius: 8px;
+    margin-top: 30px;
+    gap: 15px;
+    justify-content: center;
 }
 
 .middle-bar div {
     border: solid 1px gray;
-    border-radius: 20px;
+    border-radius: 8px;
     height: 50px;
-    width: 300px;
+    width: 400px;
 }
 
 .middle-bar-sub {
@@ -85,6 +93,15 @@ header div ul li:not(:first-child) {
     margin: 0px;
 }
 
+.middle-bar-button {
+    border-radius: 40%;
+    background: rgb(18, 18, 59);
+    color: white;
+    border: none;
+    width: 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 /*============== SLIDER ==============*/
 .slider-container {
