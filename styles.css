@@ -41,7 +41,7 @@ header div ul li:not(:first-child) {
 
 /*=========== HOME PG =============*/
 .home {
-    background-image: url("Swimming_pool.jpg");
+    background-image: url("images/Swimming_pool.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
